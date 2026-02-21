@@ -1,4 +1,4 @@
-Shader "LefShader/No.05"
+Shader "LefShader/No.05Surface"
 {
     
     SubShader
