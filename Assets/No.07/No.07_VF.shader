@@ -16,7 +16,7 @@ Shader "LefShader/No.07_VF"
             struct appdata
             {
                 float4 vertex : POSITION;
-                float3 normal : NORMAL;   // èCê≥
+                float3 normal : NORMAL;
             };
 
             struct v2f
@@ -33,7 +33,7 @@ Shader "LefShader/No.07_VF"
 
                 float3 worldPos = mul(unity_ObjectToWorld, v.vertex).xyz;
 
-                o.worldNormal = UnityObjectToWorldNormal(v.normal); // èCê≥
+                o.worldNormal = UnityObjectToWorldNormal(v.normal);
                 o.viewDir = _WorldSpaceCameraPos - worldPos;
 
                 return o;
