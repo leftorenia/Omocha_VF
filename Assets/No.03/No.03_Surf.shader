@@ -1,4 +1,4 @@
-Shader "LefShader/No.07_Surf" {
+Shader "LefShader/No.03_Surf" {
 	SubShader {
 		Tags { "RenderType"="Opaque" }
 		LOD 200

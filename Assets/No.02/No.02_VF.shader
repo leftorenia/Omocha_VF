@@ -1,4 +1,4 @@
-Shader "LefShader/No.06_VF"
+Shader "LefShader/No.02_VF"
 {
     SubShader
     {
