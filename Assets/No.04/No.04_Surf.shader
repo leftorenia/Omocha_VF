@@ -1,4 +1,5 @@
-Shader "Custom/No.04_Surf"
+
+Shader"LefShader/No.04_Surf"
 {
     Properties{
 		_MainTex("Texture", 2D) = "white"{}
